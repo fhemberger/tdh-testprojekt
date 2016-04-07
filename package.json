@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "tdh-testprojekt",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "hapi": "^13.3.0",
+    "inert": "^3.2.0",
+    "vision": "^4.0.1"
+  }
+}
