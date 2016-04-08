@@ -13,6 +13,7 @@ const internals = {};
 // Siehe: https://github.com/hapijs/vision
 internals.viewConfig = {
     engines      : { html: require('handlebars') },
+    isCached     : false,
     path         : Path.join(__dirname, 'html'),
     helpersPath  : Path.join(__dirname, 'helpers'),
     partialsPath : Path.join(__dirname, 'module')
